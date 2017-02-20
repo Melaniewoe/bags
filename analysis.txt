@@ -1,0 +1,10 @@
+analysis
+
+Rule of thumb : the slower the asymptotic growth rate, the better the algorithm is.
+By the measure, linear algorithm is asymmetrically better than a quadratic linear algorithm. such as the function f(n) = d*n+k is better than f(n)=c*n^2 +q. This is because for any given number to d, k, c, q (all in positive) there is always some n in which the magnitude of c*n^2 +q overtakes d*n+k i.
+
+Minimum time for best case is required for execution and maximum time for worst case is required for execution.
+
+Worst-case analysis is when we say that the algorithm runs in time which is the upper bound of the running time that holds for all inputs. (So we calculate the upper bound on running time of an algorithm and we have to know the maximum number of operations to be executed) such as for example Time T(n), this is the upper bound that holds input (n). Such as in the linear search, the worst case happens when the element that needed to be found (such as n in the code) is not there in the array and the search function had to compere each elements one by one in the index/array. The Big Oh Notation measures the worst case time complexity and it expresses the upper bound of running time. 
+
+While Omega notation is the way to express the lower bound of algorithm’s running time which is the best case time complexity. In the best case, we calculate the lower bound of the algorithm’s running time. the best case occurs when the x is present at the first location. x
